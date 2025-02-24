@@ -1,0 +1,171 @@
+[
+  {
+    "ContainingType": "REST_API_CV_hantering.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CRegisterRoutes\u003Eb__1_2",
+    "RelativePath": "api/educations",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "REST_API_CV_hantering.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CRegisterRoutes\u003Eb__1_3",
+    "RelativePath": "api/educations",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "school",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "degree",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "startDateInput",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "endDateInput",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "personId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "REST_API_CV_hantering.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CRegisterRoutes\u003Eb__1_0",
+    "RelativePath": "api/persons",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "REST_API_CV_hantering.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CRegisterRoutes\u003Eb__1_1",
+    "RelativePath": "api/persons",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "contactInfo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "REST_API_CV_hantering.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CRegisterRoutes\u003Eb__1_4",
+    "RelativePath": "api/workexperiences",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "REST_API_CV_hantering.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CRegisterRoutes\u003Eb__1_5",
+    "RelativePath": "api/workexperiences",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobTitle",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "company",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "startDateInput",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "endDateInput",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "personId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
