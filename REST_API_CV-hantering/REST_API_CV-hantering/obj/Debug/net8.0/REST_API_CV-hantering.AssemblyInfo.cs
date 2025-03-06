@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("REST_API_CV-hantering")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26eefc60e8de4bc19ceac4f6bb8f098849d74676")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7990d9ac72c6929ac72c647010fcc49221b10797")]
 [assembly: System.Reflection.AssemblyProductAttribute("REST_API_CV-hantering")]
 [assembly: System.Reflection.AssemblyTitleAttribute("REST_API_CV-hantering")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Migrations\\20250224143620_data_fixes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:REST_API_CV-hantering\\Migrations\\20250224143620_data_fixes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Migrations\\20250306004240_Done.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:REST_API_CV-hantering\\Migrations\\20250306004240_Done.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|c:\\users\\fredr\\source\\repos\\rest_api_cv-hantering\\rest_api_cv-hantering\\rest_api_cv-hantering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|solutionrelative:rest_api_cv-hantering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|c:\\users\\fredr\\source\\repos\\rest_api_cv-hantering\\rest_api_cv-hantering\\rest_api_cv-hantering\\endpoints\\githubendpoints\\githubendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|solutionrelative:rest_api_cv-hantering\\endpoints\\githubendpoints\\githubendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|c:\\users\\fredr\\source\\repos\\rest_api_cv-hantering\\rest_api_cv-hantering\\rest_api_cv-hantering\\models\\workexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|solutionrelative:rest_api_cv-hantering\\models\\workexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|c:\\users\\fredr\\source\\repos\\rest_api_cv-hantering\\rest_api_cv-hantering\\rest_api_cv-hantering\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|solutionrelative:rest_api_cv-hantering\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|c:\\users\\fredr\\source\\repos\\rest_api_cv-hantering\\rest_api_cv-hantering\\rest_api_cv-hantering\\models\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|solutionrelative:rest_api_cv-hantering\\models\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|c:\\users\\fredr\\source\\repos\\rest_api_cv-hantering\\rest_api_cv-hantering\\rest_api_cv-hantering\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|solutionrelative:rest_api_cv-hantering\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|c:\\users\\fredr\\source\\repos\\rest_api_cv-hantering\\rest_api_cv-hantering\\rest_api_cv-hantering\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|solutionrelative:rest_api_cv-hantering\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|c:\\users\\fredr\\source\\repos\\rest_api_cv-hantering\\rest_api_cv-hantering\\rest_api_cv-hantering\\data\\cvdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|solutionrelative:rest_api_cv-hantering\\data\\cvdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|c:\\users\\fredr\\source\\repos\\rest_api_cv-hantering\\rest_api_cv-hantering\\rest_api_cv-hantering\\services\\workexperienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|solutionrelative:rest_api_cv-hantering\\services\\workexperienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|c:\\users\\fredr\\source\\repos\\rest_api_cv-hantering\\rest_api_cv-hantering\\rest_api_cv-hantering\\classes\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|solutionrelative:rest_api_cv-hantering\\classes\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|c:\\users\\fredr\\source\\repos\\rest_api_cv-hantering\\rest_api_cv-hantering\\rest_api_cv-hantering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|solutionrelative:rest_api_cv-hantering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|c:\\users\\fredr\\source\\repos\\rest_api_cv-hantering\\rest_api_cv-hantering\\rest_api_cv-hantering\\endpoints\\personendpoints\\personendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|solutionrelative:rest_api_cv-hantering\\endpoints\\personendpoints\\personendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|c:\\users\\fredr\\source\\repos\\rest_api_cv-hantering\\rest_api_cv-hantering\\rest_api_cv-hantering\\services\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|solutionrelative:rest_api_cv-hantering\\services\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|c:\\users\\fredr\\source\\repos\\rest_api_cv-hantering\\rest_api_cv-hantering\\rest_api_cv-hantering\\endpoints\\workexperiencesendpoints\\workexperiencesendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|solutionrelative:rest_api_cv-hantering\\endpoints\\workexperiencesendpoints\\workexperiencesendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|c:\\users\\fredr\\source\\repos\\rest_api_cv-hantering\\rest_api_cv-hantering\\rest_api_cv-hantering\\services\\educationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|solutionrelative:rest_api_cv-hantering\\services\\educationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|c:\\users\\fredr\\source\\repos\\rest_api_cv-hantering\\rest_api_cv-hantering\\rest_api_cv-hantering\\endpoints\\educationsendpoints\\educationsendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|solutionrelative:rest_api_cv-hantering\\endpoints\\educationsendpoints\\educationsendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|c:\\users\\fredr\\source\\repos\\rest_api_cv-hantering\\rest_api_cv-hantering\\rest_api_cv-hantering\\migrations\\20250303160950_fieldofstudy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53A76DB-D3ED-45DA-A760-0CFE9F127615}|REST_API_CV-hantering\\REST_API_CV-hantering.csproj|solutionrelative:rest_api_cv-hantering\\migrations\\20250303160950_fieldofstudy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,66 +71,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250224143620_data_fixes.cs",
-              "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Migrations\\20250224143620_data_fixes.cs",
-              "RelativeDocumentMoniker": "REST_API_CV-hantering\\Migrations\\20250224143620_data_fixes.cs",
-              "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Migrations\\20250224143620_data_fixes.cs",
-              "RelativeToolTip": "REST_API_CV-hantering\\Migrations\\20250224143620_data_fixes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
+              "Title": "20250306004240_Done.cs",
+              "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Migrations\\20250306004240_Done.cs",
+              "RelativeDocumentMoniker": "REST_API_CV-hantering\\Migrations\\20250306004240_Done.cs",
+              "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Migrations\\20250306004240_Done.cs",
+              "RelativeToolTip": "REST_API_CV-hantering\\Migrations\\20250306004240_Done.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T14:36:20.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\appsettings.json",
-              "RelativeDocumentMoniker": "REST_API_CV-hantering\\appsettings.json",
-              "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\appsettings.json",
-              "RelativeToolTip": "REST_API_CV-hantering\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-24T12:25:48.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CvDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Data\\CvDbContext.cs",
-              "RelativeDocumentMoniker": "REST_API_CV-hantering\\Data\\CvDbContext.cs",
-              "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Data\\CvDbContext.cs",
-              "RelativeToolTip": "REST_API_CV-hantering\\Data\\CvDbContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T12:21:50.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Education.cs",
-              "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Models\\Education.cs",
-              "RelativeDocumentMoniker": "REST_API_CV-hantering\\Models\\Education.cs",
-              "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Models\\Education.cs",
-              "RelativeToolTip": "REST_API_CV-hantering\\Models\\Education.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T12:15:39.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Models\\Person.cs",
-              "RelativeDocumentMoniker": "REST_API_CV-hantering\\Models\\Person.cs",
-              "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Models\\Person.cs",
-              "RelativeToolTip": "REST_API_CV-hantering\\Models\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T12:15:26.919Z",
+              "WhenOpened": "2025-03-06T00:42:40.864Z",
               "EditorCaption": ""
             },
             {
@@ -113,23 +89,165 @@
               "RelativeDocumentMoniker": "REST_API_CV-hantering\\Models\\WorkExperience.cs",
               "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Models\\WorkExperience.cs",
               "RelativeToolTip": "REST_API_CV-hantering\\Models\\WorkExperience.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T12:15:49.261Z",
+              "WhenOpened": "2025-03-06T00:36:52.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "REST_API_CV-hantering\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Models\\Person.cs",
+              "RelativeToolTip": "REST_API_CV-hantering\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T00:28:06.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PersonService.cs",
+              "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Services\\PersonService.cs",
+              "RelativeDocumentMoniker": "REST_API_CV-hantering\\Services\\PersonService.cs",
+              "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Services\\PersonService.cs",
+              "RelativeToolTip": "REST_API_CV-hantering\\Services\\PersonService.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAkwGwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:22:09.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PersonEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Endpoints\\PersonEndpoints\\PersonEndpoints.cs",
+              "RelativeDocumentMoniker": "REST_API_CV-hantering\\Endpoints\\PersonEndpoints\\PersonEndpoints.cs",
+              "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Endpoints\\PersonEndpoints\\PersonEndpoints.cs",
+              "RelativeToolTip": "REST_API_CV-hantering\\Endpoints\\PersonEndpoints\\PersonEndpoints.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAgwG0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:30:10.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Program.cs",
               "RelativeDocumentMoniker": "REST_API_CV-hantering\\Program.cs",
               "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Program.cs",
               "RelativeToolTip": "REST_API_CV-hantering\\Program.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAqwH0AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T12:01:29.813Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WorkExperienceService.cs",
+              "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Services\\WorkExperienceService.cs",
+              "RelativeDocumentMoniker": "REST_API_CV-hantering\\Services\\WorkExperienceService.cs",
+              "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Services\\WorkExperienceService.cs",
+              "RelativeToolTip": "REST_API_CV-hantering\\Services\\WorkExperienceService.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAkwIMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:23:13.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceResponse.cs",
+              "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Classes\\ServiceResponse.cs",
+              "RelativeDocumentMoniker": "REST_API_CV-hantering\\Classes\\ServiceResponse.cs",
+              "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Classes\\ServiceResponse.cs",
+              "RelativeToolTip": "REST_API_CV-hantering\\Classes\\ServiceResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T22:45:13.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GithubEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Endpoints\\GithubEndpoints\\GithubEndpoints.cs",
+              "RelativeDocumentMoniker": "REST_API_CV-hantering\\Endpoints\\GithubEndpoints\\GithubEndpoints.cs",
+              "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Endpoints\\GithubEndpoints\\GithubEndpoints.cs",
+              "RelativeToolTip": "REST_API_CV-hantering\\Endpoints\\GithubEndpoints\\GithubEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T18:21:14.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EducationService.cs",
+              "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Services\\EducationService.cs",
+              "RelativeDocumentMoniker": "REST_API_CV-hantering\\Services\\EducationService.cs",
+              "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Services\\EducationService.cs",
+              "RelativeToolTip": "REST_API_CV-hantering\\Services\\EducationService.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAYwJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:23:03.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Education.cs",
+              "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Models\\Education.cs",
+              "RelativeDocumentMoniker": "REST_API_CV-hantering\\Models\\Education.cs",
+              "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Models\\Education.cs",
+              "RelativeToolTip": "REST_API_CV-hantering\\Models\\Education.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T17:59:26.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WorkExperiencesEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Endpoints\\WorkExperiencesEndpoints\\WorkExperiencesEndpoints.cs",
+              "RelativeDocumentMoniker": "REST_API_CV-hantering\\Endpoints\\WorkExperiencesEndpoints\\WorkExperiencesEndpoints.cs",
+              "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Endpoints\\WorkExperiencesEndpoints\\WorkExperiencesEndpoints.cs",
+              "RelativeToolTip": "REST_API_CV-hantering\\Endpoints\\WorkExperiencesEndpoints\\WorkExperiencesEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T18:19:09.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EducationsEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Endpoints\\EducationsEndpoints\\EducationsEndpoints.cs",
+              "RelativeDocumentMoniker": "REST_API_CV-hantering\\Endpoints\\EducationsEndpoints\\EducationsEndpoints.cs",
+              "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Endpoints\\EducationsEndpoints\\EducationsEndpoints.cs",
+              "RelativeToolTip": "REST_API_CV-hantering\\Endpoints\\EducationsEndpoints\\EducationsEndpoints.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAkwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T18:18:36.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250303160950_FieldOfStudy.cs",
+              "DocumentMoniker": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Migrations\\20250303160950_FieldOfStudy.cs",
+              "RelativeDocumentMoniker": "REST_API_CV-hantering\\Migrations\\20250303160950_FieldOfStudy.cs",
+              "ToolTip": "C:\\Users\\fredr\\source\\repos\\REST_API_CV-hantering\\REST_API_CV-hantering\\REST_API_CV-hantering\\Migrations\\20250303160950_FieldOfStudy.cs",
+              "RelativeToolTip": "REST_API_CV-hantering\\Migrations\\20250303160950_FieldOfStudy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T16:09:50.967Z"
             }
           ]
         }

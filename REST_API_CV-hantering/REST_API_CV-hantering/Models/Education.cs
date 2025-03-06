@@ -14,6 +14,9 @@ namespace REST_API_CV_hantering.Models
         [Required, MaxLength(100)]
         public string Degree { get; set; } = string.Empty;
 
+        [Required, MaxLength(100)]
+        public string FieldOfStudy { get; set; } = string.Empty;
+
         [Required]
         public DateTime StartDate { get; set; }
 
@@ -22,7 +25,5 @@ namespace REST_API_CV_hantering.Models
         [ForeignKey("PersonId")]
         [Required]
         public int PersonId { get; set; }
-
-        public Person? Person { get; set; } // Nullable navigation property (optional relationship)
     }
 }

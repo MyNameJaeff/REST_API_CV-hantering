@@ -12,8 +12,8 @@ using REST_API_CV_hantering.Data;
 namespace REST_API_CV_hantering.Migrations
 {
     [DbContext(typeof(CVDbContext))]
-    [Migration("20250224143620_data_fixes")]
-    partial class data_fixes
+    [Migration("20250306000632_SpecificIds")]
+    partial class SpecificIds
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -40,6 +40,11 @@ namespace REST_API_CV_hantering.Migrations
 
                     b.Property<DateTime?>("EndDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("FieldOfStudy")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<int>("PersonId")
                         .HasColumnType("int");
@@ -89,11 +94,11 @@ namespace REST_API_CV_hantering.Migrations
 
             modelBuilder.Entity("REST_API_CV_hantering.Models.WorkExperience", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("WorkExpereinceId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("WorkExpereinceId"));
 
                     b.Property<string>("Company")
                         .IsRequired()
@@ -119,7 +124,7 @@ namespace REST_API_CV_hantering.Migrations
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("Id");
+                    b.HasKey("WorkExpereinceId");
 
                     b.HasIndex("PersonId");
 
@@ -128,24 +133,20 @@ namespace REST_API_CV_hantering.Migrations
 
             modelBuilder.Entity("REST_API_CV_hantering.Models.Education", b =>
                 {
-                    b.HasOne("REST_API_CV_hantering.Models.Person", "Person")
+                    b.HasOne("REST_API_CV_hantering.Models.Person", null)
                         .WithMany("Educations")
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Person");
                 });
 
             modelBuilder.Entity("REST_API_CV_hantering.Models.WorkExperience", b =>
                 {
-                    b.HasOne("REST_API_CV_hantering.Models.Person", "Person")
+                    b.HasOne("REST_API_CV_hantering.Models.Person", null)
                         .WithMany("WorkExperiences")
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Person");
                 });
 
             modelBuilder.Entity("REST_API_CV_hantering.Models.Person", b =>

@@ -12,8 +12,8 @@ using REST_API_CV_hantering.Data;
 namespace REST_API_CV_hantering.Migrations
 {
     [DbContext(typeof(CVDbContext))]
-    [Migration("20250224123127_init")]
-    partial class init
+    [Migration("20250306001530_revert")]
+    partial class revert
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -40,6 +40,11 @@ namespace REST_API_CV_hantering.Migrations
 
                     b.Property<DateTime?>("EndDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("FieldOfStudy")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<int>("PersonId")
                         .HasColumnType("int");
@@ -105,6 +110,9 @@ namespace REST_API_CV_hantering.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("JobTitle")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -113,8 +121,8 @@ namespace REST_API_CV_hantering.Migrations
                     b.Property<int>("PersonId")
                         .HasColumnType("int");
 
-                    b.Property<short>("Year")
-                        .HasColumnType("smallint");
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
@@ -125,24 +133,20 @@ namespace REST_API_CV_hantering.Migrations
 
             modelBuilder.Entity("REST_API_CV_hantering.Models.Education", b =>
                 {
-                    b.HasOne("REST_API_CV_hantering.Models.Person", "Person")
+                    b.HasOne("REST_API_CV_hantering.Models.Person", null)
                         .WithMany("Educations")
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Person");
                 });
 
             modelBuilder.Entity("REST_API_CV_hantering.Models.WorkExperience", b =>
                 {
-                    b.HasOne("REST_API_CV_hantering.Models.Person", "Person")
+                    b.HasOne("REST_API_CV_hantering.Models.Person", null)
                         .WithMany("WorkExperiences")
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Person");
                 });
 
             modelBuilder.Entity("REST_API_CV_hantering.Models.Person", b =>

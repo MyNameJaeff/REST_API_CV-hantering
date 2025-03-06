@@ -38,6 +38,11 @@ namespace REST_API_CV_hantering.Migrations
                     b.Property<DateTime?>("EndDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("FieldOfStudy")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
                     b.Property<int>("PersonId")
                         .HasColumnType("int");
 
@@ -125,24 +130,20 @@ namespace REST_API_CV_hantering.Migrations
 
             modelBuilder.Entity("REST_API_CV_hantering.Models.Education", b =>
                 {
-                    b.HasOne("REST_API_CV_hantering.Models.Person", "Person")
+                    b.HasOne("REST_API_CV_hantering.Models.Person", null)
                         .WithMany("Educations")
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Person");
                 });
 
             modelBuilder.Entity("REST_API_CV_hantering.Models.WorkExperience", b =>
                 {
-                    b.HasOne("REST_API_CV_hantering.Models.Person", "Person")
+                    b.HasOne("REST_API_CV_hantering.Models.Person", null)
                         .WithMany("WorkExperiences")
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Person");
                 });
 
             modelBuilder.Entity("REST_API_CV_hantering.Models.Person", b =>

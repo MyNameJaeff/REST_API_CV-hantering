@@ -21,10 +21,9 @@ namespace REST_API_CV_hantering.Models
         public DateTime StartDate { get; set; }
 
         [Required]
-        public DateTime? EndDate { get; set; } // EndDate can be null if it's ongoing
+        public DateTime? EndDate { get; set; }
 
         [ForeignKey("PersonId"), Required]
         public int PersonId { get; set; }
-        public Person Person { get; set; } = null!;
     }
 }

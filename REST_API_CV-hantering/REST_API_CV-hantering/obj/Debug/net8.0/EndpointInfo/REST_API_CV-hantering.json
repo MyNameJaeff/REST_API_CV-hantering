@@ -6,11 +6,35 @@
     "version": "v1"
   },
   "paths": {
-    "/api/persons": {
+    "/api/github/{username}/repos": {
       "get": {
         "tags": [
           "REST_API_CV-hantering"
         ],
+        "parameters": [
+          {
+            "name": "username",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/persons": {
+      "get": {
+        "tags": [
+          "Persons"
+        ],
+        "summary": "Fetches all persons",
+        "operationId": "GetPersons",
         "responses": {
           "200": {
             "description": "OK"
@@ -19,8 +43,10 @@
       },
       "post": {
         "tags": [
-          "REST_API_CV-hantering"
+          "Persons"
         ],
+        "summary": "Creates a new person",
+        "operationId": "CreatePerson",
         "parameters": [
           {
             "name": "name",
@@ -54,11 +80,108 @@
         }
       }
     },
+    "/api/persons/{id}": {
+      "get": {
+        "tags": [
+          "Persons"
+        ],
+        "summary": "Fetches a person by ID",
+        "operationId": "GetPerson",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Persons"
+        ],
+        "summary": "Updates an existing person",
+        "operationId": "UpdatePerson",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "description",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "contactInfo",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Persons"
+        ],
+        "summary": "Deletes an existing person",
+        "operationId": "DeletePerson",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/educations": {
       "get": {
         "tags": [
-          "REST_API_CV-hantering"
+          "Educations"
         ],
+        "summary": "Hämtar alla Education",
+        "operationId": "GetAllEducation",
         "responses": {
           "200": {
             "description": "OK"
@@ -67,8 +190,10 @@
       },
       "post": {
         "tags": [
-          "REST_API_CV-hantering"
+          "Educations"
         ],
+        "summary": "Skapar en ny Education",
+        "operationId": "CreateEducation",
         "parameters": [
           {
             "name": "school",
@@ -80,6 +205,14 @@
           },
           {
             "name": "degree",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fieldOfStudy",
             "in": "query",
             "required": true,
             "schema": {
@@ -118,11 +251,115 @@
         }
       }
     },
+    "/api/educations/{id}": {
+      "get": {
+        "tags": [
+          "Educations"
+        ],
+        "summary": "Hämtar en Education",
+        "operationId": "GetAEducation",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Educations"
+        ],
+        "summary": "Tar bort en befintlig Education",
+        "operationId": "DeleteEducation",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Educations"
+        ],
+        "summary": "Updaterar en befintlig Education",
+        "operationId": "UpdateEducation",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "school",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "degree",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "startDateInput",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "endDateInput",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/workexperiences": {
       "get": {
         "tags": [
-          "REST_API_CV-hantering"
+          "WorkExperiences"
         ],
+        "summary": "Hämtar alla arbetserfarenheter",
+        "operationId": "GetAllWorkExperiences",
         "responses": {
           "200": {
             "description": "OK"
@@ -131,8 +368,10 @@
       },
       "post": {
         "tags": [
-          "REST_API_CV-hantering"
+          "WorkExperiences"
         ],
+        "summary": "Skapar en ny arbetserfarenhet",
+        "operationId": "CreateWorkExperience",
         "parameters": [
           {
             "name": "jobTitle",
@@ -169,7 +408,6 @@
           {
             "name": "endDateInput",
             "in": "query",
-            "required": true,
             "schema": {
               "type": "string"
             }
@@ -177,6 +415,116 @@
           {
             "name": "personId",
             "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/workexperiences/{id}": {
+      "get": {
+        "tags": [
+          "WorkExperiences"
+        ],
+        "summary": "Hämtar en arbetserfarenhet",
+        "operationId": "GetAWorkExperience",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "WorkExperiences"
+        ],
+        "summary": "Updaterar en befintlig arbetserfarenhet",
+        "operationId": "UpdateWorkExperience",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "jobTitle",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "company",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "description",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "startDateInput",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "endDateInput",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "WorkExperiences"
+        ],
+        "summary": "Tar bort en befintlig arbetserfarenhet",
+        "operationId": "DeleteWorkExperience",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
             "required": true,
             "schema": {
               "type": "integer",
